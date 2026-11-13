@@ -26,9 +26,5 @@ class FNFDoidoBasic<T:FNFLegacyFormat> extends FNFLegacyBasic<T>
 		}
 	}
 
-	public function new(?data:{song:T})
-	{
-		super(data);
-		beautify = true;
-	}
+	public function new(?data:T)
 }
