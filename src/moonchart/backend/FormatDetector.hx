@@ -442,6 +442,7 @@ class FormatDetector
 		__registerFormat(data);
 
 		var formatClass:Class<DynamicFormat> = data.handler;
+		if (data.specialValues == null) data.specialValues = [];
 		var specialValues:Array<String> = data.specialValues;
 		var formatSuper:String = '';
 
