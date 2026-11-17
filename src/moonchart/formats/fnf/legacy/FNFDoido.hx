@@ -26,5 +26,7 @@ class FNFDoidoBasic<T:FNFLegacyFormat> extends FNFLegacyBasic<T>
 		}
 	}
 
-	public function new(?data:T)
+public function new(?data:T)
+{
+    super(data);
 }
