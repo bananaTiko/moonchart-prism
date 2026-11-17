@@ -23,10 +23,11 @@ class FNFDoidoBasic<T:FNFLegacyFormat> extends FNFLegacyBasic<T>
 			hasMetaFile: FALSE,
 			metaFileExtension: "json",
 			handler: FNFDoido
-		}
+		};
 	}
 
-public function new(?data:T)
-{
-    super(data);
+	public function new(?data:T)
+	{
+		super(data);
+	}
 }
